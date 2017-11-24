@@ -135,16 +135,15 @@ This function implements a  extension of  the non-parametric one-way ANOVA-like 
 }
 
 \references{
-Diggle, P.J., Nicholas, L. & Benes, F.M. (1991) Analysis of Variance for Replicated Spatial Point Patterns in Clinical Neuroanatomy. \emph{Journal of the American Statistical Association}, 86, 618-625.
+Diggle, P.J., Nicholas, L. & Benes, F.M. (1991) Analysis of Variance for Replicated Spatial Point Patterns in Clinical Neuroanatomy. \emph{Journal of the American Statistical Association}, 86: 618-625.
 
-Ramon, P., De la Cruz, M., Chacon-Labella, J. & Escudero, A. (in revision). A new two-way ANOVA-like method for analyzing replicated point patterns in ecology.
+\href{http://dx.doi.org/10.1111/ecog.01848}{Ramon, P., De la Cruz, M., Chacon-Labella, J. & Escudero, A. (2016). A new two-way ANOVA-like method for analyzing replicated point patterns in ecology. \emph{Ecography}, 39:1109-1117.}
 }
 \author{
 Marcelino de la Cruz
 }
 
 \examples{
-\dontrun{
 
 # Get the data
 data(croton)
@@ -159,7 +158,6 @@ plot(croton.2w)
 plot(croton.2w, "tratB")
 
 
-}
 }
 
 \keyword{ spatial }

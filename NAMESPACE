@@ -3,6 +3,7 @@ export("K2w")
 
 # imports
 import(spatstat)
+importFrom(spatstat.utils, short.deparse)
 # ToDo: "importFrom" only required functions 
 
 ## Registration of S3 methods
