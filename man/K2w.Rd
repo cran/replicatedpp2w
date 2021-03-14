@@ -18,7 +18,7 @@ K2w(pplist = NULL, dataKijk = NULL, nijk = NULL, r, r0 = NULL, rmax = NULL,
 }
 \arguments{
   \item{pplist}{
-A list of point patterns with the \link[spatstat]{ppp} format of \pkg{spatstat}. This argument os alternative to \code{dataKijk}.
+A list of point patterns with the \link[spatstat.geom]{ppp} format of \pkg{spatstat}. This argument os alternative to \code{dataKijk}.
 }
   \item{dataKijk}{
 A \code{data.frame} with the K-functions (in columns) of each of the replicated point patterns. This argument os alternative to \code{pplist}.
@@ -51,7 +51,7 @@ Number of resamples to estimate the sampling distribution of the BTSS statistic.
 Any selection of the options "border", "bord.modif", "isotropic", "Ripley", "translate", "translation", "none" or "best". It specifies the edge correction to be applied if K functions should be computed.
 }
   \item{\dots}{
-Additional arguments for \link[spatstat]{Kest} function of \pkg{spatstat} (only applies if K functions should be computed) or additional graphical arguments for the \link{matplot} function.
+Additional arguments for \link[spatstat.core]{Kest} function of \pkg{spatstat} (only applies if K functions should be computed) or additional graphical arguments for the \link{matplot} function.
 }
 \item{x}{
 an object of class \code{k2w}.
@@ -137,7 +137,7 @@ This function implements a  extension of  the non-parametric one-way ANOVA-like 
 \references{
 Diggle, P.J., Nicholas, L. & Benes, F.M. (1991) Analysis of Variance for Replicated Spatial Point Patterns in Clinical Neuroanatomy. \emph{Journal of the American Statistical Association}, 86: 618-625.
 
-\href{http://dx.doi.org/10.1111/ecog.01848}{Ramon, P., De la Cruz, M., Chacon-Labella, J. & Escudero, A. (2016). A new two-way ANOVA-like method for analyzing replicated point patterns in ecology. \emph{Ecography}, 39:1109-1117.}
+Ramon, P., De la Cruz, M., Chacon-Labella, J. & Escudero, A. (2016). A new two-way ANOVA-like method for analyzing replicated point patterns in ecology. \emph{Ecography}, 39:1109-1117. \doi{10.1111/ecog.01848}.
 }
 \author{
 Marcelino de la Cruz

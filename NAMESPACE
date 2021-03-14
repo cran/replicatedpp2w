@@ -2,8 +2,11 @@
 export("K2w")
 
 # imports
-import(spatstat)
-importFrom(spatstat.utils, short.deparse)
+
+importFrom("spatstat.utils", "short.deparse")
+importFrom("spatstat.core", "Kest")
+importFrom("spatstat.geom", "progressreport")
+
 # ToDo: "importFrom" only required functions 
 
 ## Registration of S3 methods
@@ -11,3 +14,6 @@ import(stats)
 import(graphics)
 S3method(print, k2w)
 S3method(plot, k2w)
+
+# imports
+import(spatstat)
