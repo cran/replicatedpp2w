@@ -1,4 +1,4 @@
-5d0f378c844566e81a4c3b7468e805d2 *DESCRIPTION
+cf384f68a60be2c0bcba406cd4ff6bdf *DESCRIPTION
 b31f7435700c690d6be9fb06340dd0ca *NAMESPACE
 3f1cee61c00b0de4e4e059126908fbad *R/K2w.R
 85ed5e32e16be3fcdcaa17f81f3aebd0 *R/plot.k2w.R
@@ -6,5 +6,5 @@ b31f7435700c690d6be9fb06340dd0ca *NAMESPACE
 f01682ffd9d5582c0d3b8a226f3c2b16 *build/partial.rdb
 0aa7c1569215a563d991da588de3a93b *data/croton.rda
 2fccf58add4731ff7e72e8209a426d17 *inst/CITATION
-1620e902539ba7fd7c10b688ce291496 *man/K2w.Rd
+cfca0dbf3729b22198cbfa32a1efc294 *man/K2w.Rd
 8608fdb87a924f14d9a6deae1b3f3502 *man/croton.Rd

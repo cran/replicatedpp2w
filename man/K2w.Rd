@@ -51,7 +51,7 @@ Number of resamples to estimate the sampling distribution of the BTSS statistic.
 Any selection of the options "border", "bord.modif", "isotropic", "Ripley", "translate", "translation", "none" or "best". It specifies the edge correction to be applied if K functions should be computed.
 }
   \item{\dots}{
-Additional arguments for \link[spatstat.core]{Kest} function of \pkg{spatstat} (only applies if K functions should be computed) or additional graphical arguments for the \link{matplot} function.
+Additional arguments for \link[spatstat.explore]{Kest} function of \pkg{spatstat} (only applies if K functions should be computed) or additional graphical arguments for the \link{matplot} function.
 }
 \item{x}{
 an object of class \code{k2w}.
