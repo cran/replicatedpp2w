@@ -149,7 +149,7 @@ Marcelino de la Cruz
 data(croton)
 
 croton.2w <- K2w(pplist=croton$list.ppp,  r=seq(0,8, by=0.1),               
-               tratA=croton$elevation, tratB=croton$slope, nsim=99)
+               tratA=croton$elevation, tratB=croton$slope, nsim=39)
 
 croton.2w
 

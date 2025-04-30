@@ -1,11 +1,11 @@
 citHeader("To cite replicatedpp2w in publications use:")
 
-citEntry(entry = "Article",
+bibentry(bibtype = "Article",
   title        = "A new two-way ANOVA-like method for analyzing replicated point patterns in ecology",
-  author       = personList(as.person("Pablo Ramon"),
-                   as.person("Marcelino de la Cruz"),
-		   as.person("Julia Chacon-Labella"),
-		   as.person("Adrian Excudero")),
+  author       = c(person("Pablo", "Ramon", role="aut"),
+                   person("Marcelino", "de la Cruz", role="aut"),
+                   person("Julia", "Chacon-Labella", role="aut"),
+                   person("Adrian", "Excudero", role="aut")),
   journal      = "Ecography",
   year         = "2016",
   volume       = "39",
